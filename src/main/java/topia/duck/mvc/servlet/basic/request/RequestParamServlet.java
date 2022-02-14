@@ -1,4 +1,4 @@
-package topia.duck.mvc.basic.request;
+package topia.duck.mvc.servlet.basic.request;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

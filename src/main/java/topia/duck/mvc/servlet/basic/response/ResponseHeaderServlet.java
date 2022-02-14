@@ -1,10 +1,6 @@
-package topia.duck.mvc.basic.response;
-
-import org.springframework.util.StreamUtils;
-import topia.duck.mvc.basic.HelloData;
+package topia.duck.mvc.servlet.basic.response;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletInputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.charset.StandardCharsets;
 
 @WebServlet(name="responseHeaderServlet", urlPatterns = "/response-header")
 public class ResponseHeaderServlet extends HttpServlet {

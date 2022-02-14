@@ -1,4 +1,4 @@
-package topia.duck.mvc;
+package topia.duck.mvc.servlet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

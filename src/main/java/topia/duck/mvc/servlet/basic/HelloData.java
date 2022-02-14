@@ -1,4 +1,4 @@
-package topia.duck.mvc.basic;
+package topia.duck.mvc.servlet.basic;
 
 import lombok.Getter;
 import lombok.Setter;

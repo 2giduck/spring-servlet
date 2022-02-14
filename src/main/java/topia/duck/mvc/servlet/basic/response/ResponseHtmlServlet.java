@@ -1,6 +1,4 @@
-package topia.duck.mvc.basic.response;
-
-import org.springframework.util.StreamUtils;
+package topia.duck.mvc.servlet.basic.response;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
